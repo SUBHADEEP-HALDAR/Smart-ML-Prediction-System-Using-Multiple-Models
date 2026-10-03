@@ -1,0 +1,50 @@
+{
+  "house": {
+    "r2": 0.509,
+    "mae": 159473.88,
+    "baseline_mae": 216437.85,
+    "n_train": 17276,
+    "n_test": 4319,
+    "ranges": {
+      "sqft_living": [
+        720.0,
+        4980.0
+      ],
+      "bedrooms": [
+        2.0,
+        6.0
+      ],
+      "bathrooms": [
+        1.0,
+        4.25
+      ]
+    }
+  },
+  "insurance": {
+    "r2": 0.879,
+    "mae": 2440.23,
+    "baseline_mae": 8641.98,
+    "n_train": 1070,
+    "n_test": 268,
+    "ranges": {
+      "age": [
+        18.0,
+        64.0
+      ],
+      "bmi": [
+        17.895149999999997,
+        46.40789999999996
+      ],
+      "children": [
+        0.0,
+        5.0
+      ]
+    }
+  },
+  "titanic": {
+    "accuracy": 0.788,
+    "baseline_accuracy": 0.615,
+    "n_train": 712,
+    "n_test": 179
+  }
+}
